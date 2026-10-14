@@ -1,0 +1,13 @@
+scenarioKinds:
+  - id: primary
+    name: Primary
+    description: The ordinary supported outcome, including unattended continuations.
+  - id: alternative
+    name: Alternative
+    description: A different supported input, route or terminal outcome.
+  - id: validation
+    name: Validation
+    description: Observable rejection of invalid input or a refused request.
+  - id: edge
+    name: Edge
+    description: Conflict, missing information, external failure or partial completion.
